@@ -1,0 +1,328 @@
+@font-face {
+  font-family: roboto;
+  src: url('../roboto.ttf');
+}
+
+@font-face {
+	font-family: PrincipalFont;
+	src: url('/nui/fonts/bankgothic.ttf');
+}
+
+
+html {
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: roboto;
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+}
+
+#cursor {
+  position: absolute;
+  z-index: 999999;
+  display: none;
+}
+
+#container {
+  position: absolute;
+  background: rgb(15, 15, 15);
+  height: 700px;
+  width: 1000px;
+  top: 40%;
+  left: 40%;
+  margin: -250px 0 0 -300px;
+  cursor: default;
+  display: flex;
+  flex-direction: unset;
+  font-family: "PrincipalFont";
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+  /* border */
+  border: 4px solid white;
+  border-radius: 10px
+}
+
+#header {
+  color: white;
+  font-size: 44px;
+  background: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: baseline;
+  font-family: "PrincipalFont";
+}
+
+#header .title {
+  padding: 50px;
+  margin-left: 40px;
+}
+
+#header ul {
+  font-size: 15px;
+  margin-top: -150px;
+  padding: 0px;
+  list-style-type: none;
+  line-height:1.5em;
+  margin-bottom: 20px;
+}
+
+#header li {
+  cursor: pointer;
+  padding: 15px;
+  width: 296px;
+  /* Desing Special */
+  text-shadow:0 0 10px white;
+  font-family: "PrincipalFont";
+  font-size: 1.2em;
+  border: 3px solid black;
+  color: black;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  background: url("https://cdn.discordapp.com/attachments/1007332813617500362/1007822263002869832/SX8eWPV_1.gif");
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+}
+
+#header li:hover {
+  text-shadow:0 0 10px white;
+  font-family: "PrincipalFont";
+  font-size: 1.2em;
+  transform: scale(1.1);
+  transition: ease-in-out 0.3s;
+  border: 3px solid black;
+  border-radius: 5px;
+  color: black;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  background-color: white;
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+}
+
+#header li.selected {
+  text-shadow:0 0 10px white;
+  font-family: "PrincipalFont";
+  font-size: 1.2em;
+  border: 3px solid black;
+  color: black;
+  transition: ease-in-out 0.3s;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  background: url("https://cdn.discordapp.com/attachments/1007332813617500362/1007822263002869832/SX8eWPV_1.gif");
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+}
+
+#header .close {
+  float: right;
+  text-align: center;
+  color: #b90000;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 5px;
+  background: #00000026;
+  border: 1px solid #00000026;
+  border-radius: 3px;
+  cursor: pointer;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  margin: 30px 144px;
+}
+
+#header .close:hover {
+  color: #df3d3d;
+  background: #00000041;
+}
+
+.clear-both {
+  clear: both;
+}
+
+#menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-side {
+  width: 50%;
+}
+
+.content {
+  width: 100%;
+  margin: 20px;
+  color: white;
+  height: 655px;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.content h2 {
+  width: 290px;
+  height: 290px;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  margin: -25px 0 0 -25px;
+  text-align: center;
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.impounded_content {
+  display: none;
+  width: 100%;
+  margin: 20px;
+  color: white;
+  height: 655px;
+  overflow-y: auto;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.impounded_content h2 {
+  width: 290px;
+  height: 290px;
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  margin: -25px 0 0 -25px;
+  text-align: center;
+}
+
+.impounded_content::-webkit-scrollbar {
+  display: none;
+}
+
+.webgl {
+  position: fixed;
+  left: 0;
+  top: 0;
+  outline: none;
+}
+
+.content .vehicle-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.group {
+  margin: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: solid #353e4f 2px;
+  border-radius: 10px;
+}
+
+.group > button {
+  color: white;
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #353e4f;
+  border-radius: 4px;
+  background-color: #353e4f;
+}
+
+.group > input {
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  background-color: #353e4f;
+  border: none;
+  border-radius: 4px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.group > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.vehicle-listing {
+  display: inline-block;
+  flex-direction: row;
+  border: 3px solid white;
+  border-left: 4px solid white;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px 35px;
+  font-size: 18px;
+  text-align: center;
+  width: 200px;
+  transition: ease-in-out 0.3s;
+}
+
+.vehicle-listing div {
+  display: flow-root;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.vehicle-listing strong {
+  display: inline-block;
+}
+
+.vehicle-listing:hover {
+  background: #feffff4f;
+  border: 3px solid white;
+  border-left: 4px solid white;
+  border-radius: 10px;
+  transition: ease-in-out 0.3s;
+}
+
+.unstyled-button {
+  padding: 0;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+.vehicle-action {
+  background: linear-gradient(to bottom, white 5%, white 100%);
+  background-color: white;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgb(255, 255, 255);
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-size: 17px;
+  font-weight: bold;
+  transition: ease-in-out 0.3s;
+  padding: 20px 30px;
+  margin: 15px;
+  cursor: url(https://i.imgur.com/dAD9nIy.png), auto !important;
+}
+
+.vehicle-action:hover {
+  background: linear-gradient(to bottom, #72b352 5%, #77b55a 100%);
+  background-color: #72b352;
+  transition: ease-in-out 0.4s;
+  box-shadow: 0 0 0px rgb(255, 255, 255);
+}
+
+.vehicle-action.red {
+  border: 1px solid #8f2929;
+  background: linear-gradient(to bottom, #b55a5a 5%, #b35252 100%);
+  background-color: #b55a5a;
+}
+
+.vehicle-action.red:hover {
+  border: 1px solid #8f2c29;
+  background: linear-gradient(to bottom, #b55a5a 5%, #b35852 100%);
+  background-color: #b55a5a;
+}

@@ -1,0 +1,33 @@
+lockfileVersion: 5.4
+
+specifiers:
+  '@citizenfx/client': latest
+  '@citizenfx/server': latest
+  '@types/node': ^16.9.1
+  typescript: ^4.7.4
+
+dependencies:
+  '@citizenfx/client': 2.0.5722-1
+  '@citizenfx/server': 2.0.5722-1
+  '@types/node': 16.11.44
+  typescript: 4.7.4
+
+packages:
+
+  /@citizenfx/client/2.0.5722-1:
+    resolution: {integrity: sha512-sZgMG3ywuLFz/LHUbaKUgIZAOUfec97Q3VAOR1zpGP9F6BPZVjRt/melrODgjgkgRmMeW5kfv4nVCcRdjsio6A==}
+    dev: false
+
+  /@citizenfx/server/2.0.5722-1:
+    resolution: {integrity: sha512-IOxEyGEGua5N6KxR4Y5VAejtQ/HPezw2F5X2REshx/zTxr7mkQIiT4nqLMmBa/0tz8j370JpO65C158+maxWiQ==}
+    dev: false
+
+  /@types/node/16.11.44:
+    resolution: {integrity: sha512-gwP6+QDgL5TDBIWh1lbYh3EFPU11pa+8xcamcsA3ROkp3A9X+/3Y5cRgq93VPEEE+CGfxlQnqkg1kkWGBgh3fw==}
+    dev: false
+
+  /typescript/4.7.4:
+    resolution: {integrity: sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false

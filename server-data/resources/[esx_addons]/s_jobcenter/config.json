@@ -1,0 +1,44 @@
+{
+    "jobs":[
+        {
+            "jobLabel":     "Camionero",
+            "jobName":      "trucker",
+            "imagepath":    "images/pngegg.png",
+            "description":  "Trabaja de camionero para las mejores empresas de LS"
+        },
+        {
+            "jobLabel":     "Electricista",
+            "jobName":      "technician",
+            "imagepath":    "images/pngegg.png",
+            "description":  "Arregla la luz de la ciudad"
+        },
+        {
+            "jobLabel":     "Granjero",
+            "jobName":      "farmer",
+            "imagepath":    "images/frutero.png",
+            "description":  "Trabaja de granjero y vende producto a las grandes empresas"
+        },
+        {
+            "jobLabel":     "Delivery Pizzero",
+            "jobName":      "pizza",
+            "imagepath":    "images/pizza.png",
+            "description":  "Este es uno de los mejores trabajos y divertidos de la ciudad"
+        },
+        {
+            "jobLabel":     "Sin Empleo",
+            "jobName":      "unemployed",
+            "imagepath":    "images/waste_job.png",
+            "description":  "Renunciar a todo en la ciudad."
+        }
+    ],
+    "lang": "ES",
+
+    "jobCenter":"Centro De Trabajos",
+
+    "pedInfo":{
+        "PedCoords": {"x":-234.975830, "y":-922.259338, "z":30.90}, 
+        "PedHeading":209.42,
+        "PedName":"a_m_m_afriamer_01"
+    }
+    
+}

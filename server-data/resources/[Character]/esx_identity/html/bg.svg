@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="5635px" viewBox="0 0 1440 5635" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>cross_bg</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Landingpage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landingpage_mit_liste" transform="translate(-0.000000, -1029.000000)" fill="#1a1a1a">
+            <g id="bg" transform="translate(0.000000, 0.000000)">
+                <g id="cross_bg">
+                    <polygon id="Rectangle" opacity="0.50223" points="0 1029 1440 2149 1440 2907.02235 0 1781.92444"></polygon>
+                    <polygon id="Rectangle" opacity="0.501454" points="0 4786 1440 5906 1440 6664.02235 0 5538.92444"></polygon>
+                    <polygon id="Rectangle" opacity="0.504056" transform="translate(720.000000, 3848.011173) scale(-1, 1) translate(-720.000000, -3848.011173) " points="0 2909 1440 4029 1440 4787.02235 0 3661.92444"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

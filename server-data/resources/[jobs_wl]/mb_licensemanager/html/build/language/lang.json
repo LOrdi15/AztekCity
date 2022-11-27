@@ -1,0 +1,51 @@
+{
+	"homepage": {
+		"title": "LICENSE MANAGER",
+		"welcome_message": "Welcome Officer, ",
+		"create_license": "Create License",
+		"license_database": "License Database"
+	},
+	"licensedb": {
+		"title": "LICENSE DATABASE",
+		"header": {
+			"number": "No",
+			"name": "Name",
+			"licenses": "Licenses",
+			"manage": "Manage"
+		},
+		"manage_button": "Manage",
+		"back_button": "BACK",
+		"search_textfield": "Search"
+	},
+	"createlicense": {
+		"title": "CREATE LICENSE",
+		"textfields": {
+			"player_id": "Citizen ID",
+			"license_type": "License Type"
+		},
+		"error_submit": "Citizen ID or License type must be filled!",
+		"submit_button": "SUBMIT",
+		"cancel_button": "CANCEL",
+		"second_title": "CITIZEN INFORMATION",
+		"informationfields": {
+			"first_name": "First Name",
+			"last_name": "Last Name",
+			"dob": "Date Of Birth",
+			"height": "Height",
+			"sex": "Sex"
+		}
+	},
+	"managelicense": {
+		"title": "MANAGE LICENSE",
+		"license_type": "License Type",
+		"revoke_button": "REVOKE",
+		"cancel_button": "CANCEL",
+		"informationfields": {
+			"first_name": "First Name",
+			"last_name": "Last Name",
+			"dob": "Date Of Birth",
+			"height": "Height",
+			"sex": "Sex"
+		}
+	}
+}

@@ -1,0 +1,64 @@
+@-webkit-keyframes hablando {
+    0% {
+        box-shadow: 0 0 0 0 hsla(0, 0%, 100%, .75);
+        transform: scale(1)
+    }
+    to {
+        box-shadow: 0 0 0 5px rgba(103, 48, 117, 0.753);
+        transform: scale(1.05)
+    }
+}
+
+@keyframes hablando {
+    0% {
+        box-shadow: 0 0 0 0 hsla(0, 0%, 100%, .75);
+        transform: scale(1)
+    }
+    to {
+        box-shadow: 0 0 0 5px rgba(235, 233, 238, 0.795);
+        transform: scale(1.05)
+    }
+}
+
+html {
+    height: 100%;
+    overflow: hidden
+}
+
+.flex {
+    display: flex;
+    position: fixed;
+    right: 15px;
+    bottom: 20px
+}
+
+.item {
+    position: relative;
+    transition-duration: .5s;
+    background-color: rgba(0, 0, 0, 0.815);
+    border-radius: .4vw;
+    box-shadow: 0 0 .5vw rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.icon {
+    margin: 0;
+    z-index: 99999;
+    position: absolute;
+    line-height: .3;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    color: rgba(255, 255, 255, .7);
+    text-shadow: .1vw .1vw .2vw black;
+}
+
+.talking {
+    -webkit-animation: hablando .8s infinite;
+    animation: hablando .8s infinite
+}
+
+p {
+    margin: 0
+}

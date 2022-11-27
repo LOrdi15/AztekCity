@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="container">
+			<div id="startscreen">
+				<p style="margin-left: 160px; margin-top: 50px; font-size: 45px; font-family: 'Secular One', sans-serif;
+			    	margin: 0;
+    				position: absolute;
+    				top: 50%;
+					text-align: center;
+    				left: 50%;
+    				-ms-transform: translate(-50%, -50%);
+					transform: translate(-50%, -50%);">POLICIA - REGISTRO DE EVIDENCIA</p>
+				<button class="button" id="start">Dejar Registro</button>
+			</div>
+
+
+			<!-- Form -->
+
+
+
+			<div id="info">
+				
+				<label class="label">Nombre (OFICIAL)</label>
+				<input id="firstname" type="text" placeholder="Escribe aqui" class="input"  required="true" name="need" ><br>
+				<label class="label1">Apellido (OFICIAL)</label>
+				<input id="lastname" type="text" placeholder="Escribe aqui" class="input"  required="true" name="need" ><br>
+				<label class="label3">Colocar cuales fueron los objetos confiscados</label>
+				<input id="why"type="text" type="textarea" placeholder="Escribe aqui" class="why"  required="true"  name="need"><br>
+				<strong class="warn"  id="warn">Por favor, rellene todos los datos</strong>
+				<button class="sumbit" id="sumbit">SUBIR REGISTRO</button>
+			</div>
+
+			<!-- Done -->
+
+			<div id="done">
+				<p class="thanks">EXITOSO</p>
+				<button class="exit" id="exit">SALIR</button>
+			</div>
+
+
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>
