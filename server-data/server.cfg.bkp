@@ -15,7 +15,6 @@ sv_maxclients 48
 sv_endpointprivacy true
 #sv_master1 "AztekCity Coming Soon"
 set sv_UseDirectListing true
-sets locale "es-MX"
 
 ## Add system admins
 add_principal group.admin group.user
